@@ -1,0 +1,27 @@
+OBJECTIVES
+	At the end of this activity, the students will be able to:
+		1. Create a program that applies Stack ADT and use array-based data structure.
+		2. Know the difference between ADT and data structure.
+		3. Able to create programs that separate the implementation from the interface.
+Requirements:
+• The implementation of Stack ADT should be in a separate file.
+• Use python list to implement array-based data structure.
+Instructions:
+• Create a python file main.py as entry point of your program. Stack operations should be listed here such as Push, Pop, Peek, 
+Size, and Exit.
+• Create a python file named stackADTarray.py this should place all the implementation of your data structure.
+• Make sure to import the needed class/functions from the stackADTarray to the main file.
+Functions:
+• Use a list to implement array-based data structure. Used the operations available in Python list:
+Operations/methods Function
+is_empty – check if the stack is empty or not.
+size – check the size of the stack.
+len - Return the length (the number of items) of an object. 
+The argument may be a sequence (such as a string, bytes, 
+tuple, list, or range) or a collection (such as a dictionary, set, 
+or frozen set).
+push – insert item/data on a stack. list.append - Add an item to the end of the list.
+pop – remove the last item/data from the stack. pop - Remove the item at the given position in the list, and 
+return it. If no index is specified, a.pop() removes and returns 
+the last item in the list. It raises an IndexError if the list is 
+empty or the index is outside the list range
